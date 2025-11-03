@@ -22,6 +22,7 @@ class Stack:
         return len(self.list)
 
 s = Stack()
+print("Stack created")
 s.push(1)
 s.push(2)
 s.push(3)
