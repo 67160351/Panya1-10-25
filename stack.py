@@ -22,7 +22,10 @@ class Stack:
         return len(self.list)
 
 s = Stack()
-print("Stack created")
+
+print("Is empty?",s.is_empty()) 
+
+
 s.push(1)
 s.push(2)
 s.push(3)
